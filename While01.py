@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+
+    n = 0
+    y = 0
+    while n < len(s):
+        if s[n].isdigit():
+            y += 1
+        n += 1
+ 
+    return y
+
+print(main("df5f6"))
