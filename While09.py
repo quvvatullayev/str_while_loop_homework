@@ -9,13 +9,12 @@ def main(s):
     sum = 0
     i = 0
     n = len(s)
-    s = int(s)
     
     while i < n:
-        sum += s%10
-        s //= 10
+        if str(s[i]).isdigit():
+            sum += int(s[i])
         i += 1
 
     return sum
 
-print(main("75901"))
+print(main("sf8f9f6d"))
