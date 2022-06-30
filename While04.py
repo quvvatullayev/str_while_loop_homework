@@ -10,11 +10,14 @@ def main(s):
     i = 0
     sum = 0
     while i < len(s):
-        if s[i] == s[i].upper():
-            sum += 1
+
+        if s[i].isalpha():
+
+            if s[i] == s[i].upper():
+                sum += 1
 
         i += 1
 
     return sum
 
-print(main("DlkjoiSImngjhO"))
+print(main("DlkjoiSImngjhsc56O"))
