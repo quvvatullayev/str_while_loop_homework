@@ -8,7 +8,8 @@ def main(s):
     """
     sum = 0
     i = 0
-    n = len(str(s))
+    n = len(s)
+    s = int(s)
     
     while i < n:
         if (s%10)%2 == 0:
