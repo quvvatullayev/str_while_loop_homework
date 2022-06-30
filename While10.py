@@ -9,14 +9,12 @@ def main(s):
     sum = 0
     i = 0
     n = len(s)
-    s = int(s)
     
     while i < n:
-        if (s%10)%2 == 1:
-            sum += s%10
-        s //= 10
+        if int(s[i])%2 == 1:
+            sum += int(s[i])
         i += 1
 
     return sum
 
-print(main("7598423"))
+print(main("78513"))
