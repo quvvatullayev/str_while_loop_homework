@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    s = str(s)
+    i = 0
+    sum = 0
+    while i < len(s):
+        if s[i] == s[i].upper():
+            sum += 1
+
+        i += 1
+
+    return sum
+
+print(main("DlkjoiSImngjhO"))
