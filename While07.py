@@ -16,7 +16,6 @@ def main(s):
             sum += 1
         s //= 10
         i += 1
-
     return sum
 
 print(main(759))
