@@ -8,7 +8,7 @@ def main(s):
     """
     sum = 0
     i = 0
-    n = len(str(s))
+    n = len(s)
     s = int(s)
     
     while i < n:
@@ -19,4 +19,4 @@ def main(s):
 
     return sum
 
-print(main("75984235"))
+print(main("7598423"))
