@@ -8,7 +8,7 @@ def main(s):
     """
     sum = 0
     i = 0
-    n = len(s)
+    n = len(str(s))
     s = int(s)
     
     while i < n:
