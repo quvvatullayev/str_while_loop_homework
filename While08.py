@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    sum = 0
+    i = 0
+    n = len(str(s))
+    
+    while i < n:
+        if (s%10)%2 == 1:
+            sum += 1
+        s //= 10
+        i += 1
+
+    return sum
+
+print(main(759))
