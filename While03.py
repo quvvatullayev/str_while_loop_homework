@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    s = str(s)
+    i = 0
+    sum = 0
+    while i < len(s):
+        if s[i].isalpha() or s[i].isdigit():
+            sum += 0
+        else:
+            sum += 1
+
+        i += 1
+
+    return sum
+
+print(main("*o'798#9@cdvfsc64!^54&czb~`hoyh"))
